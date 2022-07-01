@@ -27,7 +27,7 @@ programa
 				leia(d)
 				a=(d/365)
 				m=(d%365)/30
-				d=(d%30)%30
+				d=(d%365)%30
 				escreva("Voce tem",a," anos ", m," meses e ",d,"dias")
 				pare
 				
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 510; 
+ * @POSICAO-CURSOR = 511; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
